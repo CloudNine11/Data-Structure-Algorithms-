@@ -112,10 +112,10 @@ int main()
 
    switch(ch)
     {
-        case 1:
-               	addFromRear();
-                goto a;
-        case 2:
+        	case 1:
+               			addFromRear();
+                		goto a;
+        	case 2:
 	   			addFromFront();
 				goto a;
 	 
