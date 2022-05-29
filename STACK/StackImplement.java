@@ -1,3 +1,4 @@
+#note:I will make updation if it requires necessary changes.
 import java.util.*;
 
 public class StackImplement {
