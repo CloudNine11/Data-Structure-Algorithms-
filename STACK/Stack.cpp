@@ -75,13 +75,13 @@ int main()
 
    switch(ch)
     {
-       case 1:
-               	push();
-                goto a;
-       case 2:
+       		case 1:
+               			push();
+                		goto a;
+       		case 2:
 	   			pop();
 				goto a;
-	   case 3:
+	   	case 3:
 	   			peek();
 				goto a;
 		case 4:
