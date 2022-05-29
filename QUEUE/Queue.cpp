@@ -13,12 +13,12 @@ void push()
     {
         if(rear==5)
         {
-            cout<<" stack overflow ..nothing can be shown"<<endl;
+            cout<<" Queue overflow ..nothing can be shown"<<endl;
             break;
         }
         else
         {
-            cout<<"enter elements in stack"<<endl;
+            cout<<"enter elements in Queue"<<endl;
             cin>>arr[rear++];
             cout<<"do you want to continue:"<<endl;
             cin>>msg;
@@ -45,7 +45,7 @@ void pop()
 {
 	if(rear==0)
 	{
-		cout<<"stack underflow ..nothing can be deleted"<<endl;
+		cout<<"Queue underflow ..nothing can be deleted"<<endl;
 	}
 	else
 	{
@@ -54,7 +54,7 @@ void pop()
 	    	arr[i]=arr[i+1];
 		}
 		rear--;
-		cout<<"1 item deleted from stack";
+		cout<<"1 item deleted from queue";
 	}
 }
 
@@ -65,7 +65,7 @@ int main()
      int ch;
     a:
      cout<<"main menu"<<endl;
-     cout<<"Stack Opeartions:"<<endl;
+     cout<<"Queue Opeartions:"<<endl;
      cout<<"1.Push"<<endl;
      cout<<"2.Pop"<<endl;
      cout<<"3.Display stack"<<endl;
