@@ -46,21 +46,6 @@ void addFromFront()
 		rear++;
     }
 }
-void display()
-{
-    if(rear==0)
-    {
-        cout<<"nothing to display"<<endl;
-
-    }
-    else
-    {
-        for(i=0;i<rear;i++)
-        {
-            cout<<arr[i]<<" "<<endl;
-        }
-    }
-}
 
 void deleteFromFront()//fo
 {
@@ -93,6 +78,21 @@ void deleteFromRear()
 	}
 }
 
+void display()
+{
+    if(rear==0)
+    {
+        cout<<"nothing to display"<<endl;
+
+    }
+    else
+    {
+        for(i=0;i<rear;i++)
+        {
+            cout<<arr[i]<<" "<<endl;
+        }
+    }
+}
 
 
 int main()
