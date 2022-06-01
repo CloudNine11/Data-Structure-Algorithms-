@@ -1,4 +1,4 @@
-Implementation of double linked list.It may not run in some compiler but the logic working fine.
+Implementation of double linked list.It may not run in some compiler but the logic working fine.(I use turbo c++,dev c++)
 #include<iostream>
 //#include<conio.h>
 using namespace std;
