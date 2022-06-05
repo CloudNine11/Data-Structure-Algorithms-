@@ -1,3 +1,4 @@
+
 //Wap to check whether a matrix is scaler or not
 import java.util.*;
 
@@ -46,11 +47,9 @@ public class Scaler {
 }
 
 /*
-  8 0 0 0
-  0 8 0 0
-  0 0 8 0
-  0 0 0 8
-  The matrix is scaler
-*/ 
-
- 
+ * 8 0 0 0
+ * 0 8 0 0
+ * 0 0 8 0
+ * 0 0 0 8
+ * The matrix is scaler
+ */

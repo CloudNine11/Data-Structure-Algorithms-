@@ -2,7 +2,7 @@
 PROBLEM STATEMENT:
 WONDROUS SQUARE :- Write a program to input n, create matrix in such a manner so that its sum of each row is equal to sum of each column , sum of diagonals is equal.
 */
-package com.company;
+//package com.company;
 
 import java.util.*;
 
